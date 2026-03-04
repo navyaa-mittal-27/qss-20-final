@@ -1,0 +1,25 @@
+office_name,office_name_short,area
+Atlanta Field Office,Atlanta - ERO,"['Georgia', 'North Carolina', 'South Carolina']"
+Baltimore Field Office,Baltimore - ERO,['Maryland']
+Buffalo Field Office,Buffalo - ERO,['Upstate New York']
+Boston Field Office,Burlington - ERO,"['Connecticut', 'Maine', 'Massachusetts', 'New Hampshire', 'Rhode Island', 'Vermont']"
+Denver Field Office,Centennial - ERO,"['Colorado', 'Wyoming']"
+Washington Field Office,Chantilly - ERO,"['District of Columbia', 'Virginia']"
+Chicago Field Office,Chicago - ERO,"['Illinois', 'Indiana', 'Wisconsin', 'Missouri', 'Kentucky', 'Kansas']"
+Dallas Field Office,Dallas - ERO,"['Texas', 'Oklahoma']"
+Detroit Field Office,Detroit - ERO,"['Michigan', 'Ohio']"
+El Paso Field Office,El Paso - ERO,"['Texas', 'New Mexico']"
+St. Paul Field Office,Fort Snelling - ERO,"['Iowa', 'Minnesota', 'Nebraska', 'North Dakota', 'South Dakota']"
+Harlingen Field Office,Harlingen - ERO,['Texas']
+Houston Field Office,Houston - ERO,['Texas']
+Los Angeles Field Office,Los Angeles - ERO,['California']
+New York City Field Office,New York - ERO,['New York']
+Newark Field Office,Newark - ERO,['New Jersey']
+Philadelphia Field Office,Philadelphia - ERO,"['Delaware', 'Pennsylvania', 'West Virginia']"
+Phoenix Field Office,Phoenix - ERO,['Arizona']
+San Antonio Field Office,San Antonio - ERO,['Central Texas']
+San Diego Field Office,San Diego - ERO,['California']
+San Francisco Field Office,San Francisco - ERO,"['California', 'Hawaii', 'Guam', 'Saipan']"
+Seattle Field Office,Seattle - ERO,"['Alaska', 'Oregon', 'Washington']"
+New Orleans Field Office,St. Rose - ERO,"['Alabama', 'Arkansas', 'Louisiana', 'Mississippi', 'Tennessee']"
+Salt Lake City Field Office,West Valley City - ERO,"['Utah', 'Idaho', 'Montana', 'Nevada']"
