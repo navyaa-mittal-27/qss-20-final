@@ -1,7 +1,7 @@
 office_name,office_name_short,area
 Atlanta Field Office,Atlanta - ERO,"['Georgia', 'North Carolina', 'South Carolina']"
 Baltimore Field Office,Baltimore - ERO,['Maryland']
-Buffalo Field Office,Buffalo - ERO,['Upstate New York']
+Buffalo Field Office,Buffalo - ERO,['New York']
 Boston Field Office,Burlington - ERO,"['Connecticut', 'Maine', 'Massachusetts', 'New Hampshire', 'Rhode Island', 'Vermont']"
 Denver Field Office,Centennial - ERO,"['Colorado', 'Wyoming']"
 Washington Field Office,Chantilly - ERO,"['District of Columbia', 'Virginia']"
@@ -17,7 +17,7 @@ New York City Field Office,New York - ERO,['New York']
 Newark Field Office,Newark - ERO,['New Jersey']
 Philadelphia Field Office,Philadelphia - ERO,"['Delaware', 'Pennsylvania', 'West Virginia']"
 Phoenix Field Office,Phoenix - ERO,['Arizona']
-San Antonio Field Office,San Antonio - ERO,['Central Texas']
+San Antonio Field Office,San Antonio - ERO,['Texas']
 San Diego Field Office,San Diego - ERO,['California']
 San Francisco Field Office,San Francisco - ERO,"['California', 'Hawaii', 'Guam', 'Saipan']"
 Seattle Field Office,Seattle - ERO,"['Alaska', 'Oregon', 'Washington']"
