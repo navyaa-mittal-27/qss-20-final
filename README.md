@@ -1,39 +1,36 @@
-# qss-20-final
+qss-20-final
+A research project examining the relationship between ICE enforcement activity and human trafficking hotline signals across U.S. Areas of Responsibility (AORs).
 
-Data:
-    International:
-        --CTDC_global_synthetic_data_v2025.csv --> EXPLAINATION
-        --ISO_codes.csv --> EXPLAINATION
-        --IceRemovalData_PreviousYears.md --> EXPLAINATION
-        --IceRemovalData_RecentYears.csv --> EXPLAINATION
-        --regression_data_output.csv --> EXPLAINATION
-    National:
-        Input:
-            --ICERemovalsdata.csv --> ICE Data giving removals by Area of responsibility
-            --ice-offices(Sheet1).csv --> ICE Data about feild offices for the purpose of merging between state-level hotline data and AOR-level ICE data
-        Output:
-            --ICEEROmanualdatacleancompleted.csv --> Data from manualdatacleanneeded.csv after manually cleaning some cells to better merge them by state (i.e. converting city names to state names.)
-            --manualdatacleanneeded.csv --> Output from IceAORcleaner.ipynb, with some cleaning needed
-            --trafficking_states_master.csv --> Output from Hotlinescraper, containing Human Trafficking Hotline information across states and years
+Repository structure
+qss-20-final/
+├── data/
+│   ├── international/
+│   └── national/
+│       ├── input/
+│       └── output/
+├── figures_and_tables/
+│   ├── international/
+│   └── national/
+└── scripts/
+    ├── international/
+    └── national/
 
-figures_and_tables:
-    international:
-        --map.html --> EXPLAINATION
-        --national_regressions.png --> EXPLAINATION
-        --regional_regressions.png --> EXPLAINATION
-        --subregion_plot.png --> EXPLAINATION
-    national:
-        --AORcoef.pdf --> Image produced by ICE_Hotline_merge_and_model.ipynb, which presents the AOR coefficents in our regression model
-        --AORremscatter.pdf --> Image produced by ICE_Hotline_merge_and_model.ipynb, which presents the removals vs. hotline signals scatterplot of our data
-        --ICESankey.png --> Image produced by Sankey.ipynb, which presents the Sankey diagram of the national-level data
-        --hotlinesignalsonICEremovals --> LaTeX code produced by ICE_Hotline_merge_and_model.ipynb, which is the regression table results
+Data
+International
+FileDescriptionCTDC_global_synthetic_data_v2025.csvEXPLANATIONISO_codes.csvEXPLANATIONIceRemovalData_PreviousYears.mdEXPLANATIONIceRemovalData_RecentYears.csvEXPLANATIONregression_data_output.csvEXPLANATION
+National — Input
+FileDescriptionICERemovalsdata.csvICE data giving removals by Area of Responsibility (AOR)ice-offices(Sheet1).csvICE field office data used to bridge between state-level hotline data and AOR-level ICE data
+National — Output
+FileDescriptionICEEROmanualdatacleancompleted.csvCleaned version of manualdatacleanneeded.csv after manually correcting cells to improve state-level merging (e.g. converting city names to state names)manualdatacleanneeded.csvOutput of IceAORcleaner.ipynb, flagged for manual cleaningtrafficking_states_master.csvOutput of Hotlinescraper.ipynb, containing Human Trafficking Hotline signals across states and years
 
-Scripts:
-    international:
-        --clean_merge_model.ipynb --> PLEASE ADD
-    national:
-        --Hotlinescraper.ipynb --> Scraping state and year levels from the Human trafficking hotline website
-        --ICE_Hotline_merge_and_model.ipynb --> Merging ICE and hotline datasets using AOR information and developing models and images
-        --IceAORcleaner.ipynb --> Cleaning the origional AOR office information dataset to make it useful as a bridge
-        --Sankey.ipynb --> Developing a sankey diagram for our dataset
-        
+Figures and tables
+International
+FileDescriptionmap.htmlEXPLANATIONnational_regressions.pngEXPLANATIONregional_regressions.pngEXPLANATIONsubregion_plot.pngEXPLANATION
+National
+FileDescriptionAORcoef.pdfAOR fixed effects coefficient plot, produced by ICE_Hotline_merge_and_model.ipynbAORremscatter.pdfScatterplot of ICE removals vs. hotline signals by AOR, produced by ICE_Hotline_merge_and_model.ipynbICESankey.pngSankey diagram of the national-level data pipeline, produced by Sankey.ipynbhotlinesignalsonICEremovalsLaTeX regression table of hotline signals on ICE removals, produced by ICE_Hotline_merge_and_model.ipynb
+
+Scripts
+International
+ScriptDescriptionclean_merge_model.ipynbEXPLANATION
+National
+ScriptDescriptionHotlinescraper.ipynbScrapes state- and year-level data from the Human Trafficking Hotline websiteIceAORcleaner.ipynbCleans the original AOR field office dataset to produce a usable crosswalk between states and AORsICE_Hotline_merge_and_model.ipynbMerges ICE and hotline datasets using AOR crosswalk, runs regression models, and produces figuresSankey.ipynbBuilds a Sankey diagram visualizing the national-level data pipeline
