@@ -20,11 +20,11 @@ qss-20-final/
 Data
 
 International
-- `CTDC_global_synthetic_data_v2025.csv` — EXPLANATION
-- `ISO_codes.csv` — EXPLANATION
-- `IceRemovalData_PreviousYears.md` — EXPLANATION
-- `IceRemovalData_RecentYears.csv` — EXPLANATION
-- `regression_data_output.csv` — EXPLANATION
+- `CTDC_global_synthetic_data_v2025.csv` — Data on human trafficiking
+- `ISO_codes.csv` — International country codes for merging
+- `IceRemovalData_PreviousYears.md` — Data on deportations from early 2010s to early 2020s
+- `IceRemovalData_RecentYears.csv` — Data on deportations from 2021 to 2025 (later dropped because of overlaps with previous file)
+- `regression_data_output.csv` — Output of global regression data
 
 National
 
@@ -40,10 +40,10 @@ Output:
 Figures and tables
 
 International:
-- `map.html` — EXPLANATION
-- `national_regressions.png` — EXPLANATION
-- `regional_regressions.png` — EXPLANATION
-- `subregion_plot.png` — EXPLANATION
+- `map.html` — Interactive map of deportations and human trafficking over the years
+- `national_regressions.png` — Regression table on countries with the highest deportations / trafficking
+- `regional_regressions.png` — Regression table on all sub-regions
+- `subregion_plot.png` — Plots of human trafficking data and deportation data across regions
 
 National:
 - `AORcoef.pdf` — AOR fixed effects coefficient plot
@@ -54,7 +54,7 @@ National:
 Scripts
 
 International:
-- `clean_merge_model.ipynb` — EXPLANATION
+- `clean_merge_model.ipynb` — Data to install the data files, clean the data, merge, and build the regression models and visualizations
 
 National:
 - `Hotlinescraper.ipynb` — Scrapes Human Trafficking Hotline data by state and year
